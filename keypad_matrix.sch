@@ -1,0 +1,746 @@
+EESchema Schematic File Version 4
+LIBS:rpn_mxb-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW6
+U 1 1 5D1F2ECF
+P 5600 3050
+F 0 "SW6" V 5646 3002 50  0000 R CNN
+F 1 "SW_Push" V 5555 3002 50  0000 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5600 3250 50  0001 C CNN
+F 3 "" H 5600 3250 50  0001 C CNN
+	1    5600 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D6
+U 1 1 5D1F44A0
+P 5300 3050
+F 0 "D6" V 5346 3118 50  0000 L CNN
+F 1 "D_Small" V 5255 3118 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5300 3050 50  0001 C CNN
+F 3 "~" V 5300 3050 50  0001 C CNN
+	1    5300 3050
+	1    0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW10
+U 1 1 5D1F639D
+P 5600 3750
+F 0 "SW10" V 5646 3702 50  0000 R CNN
+F 1 "SW_Push" V 5555 3702 50  0000 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5600 3950 50  0001 C CNN
+F 3 "" H 5600 3950 50  0001 C CNN
+	1    5600 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D10
+U 1 1 5D1F63A7
+P 5300 3750
+F 0 "D10" V 5346 3818 50  0000 L CNN
+F 1 "D_Small" V 5255 3818 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5300 3750 50  0001 C CNN
+F 3 "~" V 5300 3750 50  0001 C CNN
+	1    5300 3750
+	1    0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW14
+U 1 1 5D1F71FF
+P 5600 4450
+F 0 "SW14" V 5646 4402 50  0000 R CNN
+F 1 "SW_Push" V 5555 4402 50  0000 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5600 4650 50  0001 C CNN
+F 3 "" H 5600 4650 50  0001 C CNN
+	1    5600 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D14
+U 1 1 5D1F7209
+P 5300 4450
+F 0 "D14" V 5346 4518 50  0000 L CNN
+F 1 "D_Small" V 5255 4518 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5300 4450 50  0001 C CNN
+F 3 "~" V 5300 4450 50  0001 C CNN
+	1    5300 4450
+	1    0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW18
+U 1 1 5D1F7213
+P 5600 5150
+F 0 "SW18" V 5646 5102 50  0000 R CNN
+F 1 "SW_Push" V 5555 5102 50  0000 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5600 5350 50  0001 C CNN
+F 3 "" H 5600 5350 50  0001 C CNN
+	1    5600 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D18
+U 1 1 5D1F721D
+P 5300 5150
+F 0 "D18" V 5346 5218 50  0000 L CNN
+F 1 "D_Small" V 5255 5218 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5300 5150 50  0001 C CNN
+F 3 "~" V 5300 5150 50  0001 C CNN
+	1    5300 5150
+	1    0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW5
+U 1 1 5D1FBED1
+P 4750 3050
+F 0 "SW5" V 4796 3002 50  0000 R CNN
+F 1 "SW_Push" V 4705 3002 50  0000 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4750 3250 50  0001 C CNN
+F 3 "" H 4750 3250 50  0001 C CNN
+	1    4750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D5
+U 1 1 5D1FBEDB
+P 4450 3050
+F 0 "D5" V 4496 3118 50  0000 L CNN
+F 1 "D_Small" V 4405 3118 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4450 3050 50  0001 C CNN
+F 3 "~" V 4450 3050 50  0001 C CNN
+	1    4450 3050
+	1    0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW9
+U 1 1 5D1FBEE5
+P 4750 3750
+F 0 "SW9" V 4796 3702 50  0000 R CNN
+F 1 "SW_Push" V 4705 3702 50  0000 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4750 3950 50  0001 C CNN
+F 3 "" H 4750 3950 50  0001 C CNN
+	1    4750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D9
+U 1 1 5D1FBEEF
+P 4450 3750
+F 0 "D9" V 4496 3818 50  0000 L CNN
+F 1 "D_Small" V 4405 3818 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4450 3750 50  0001 C CNN
+F 3 "~" V 4450 3750 50  0001 C CNN
+	1    4450 3750
+	1    0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW13
+U 1 1 5D1FBEF9
+P 4750 4450
+F 0 "SW13" V 4796 4402 50  0000 R CNN
+F 1 "SW_Push" V 4705 4402 50  0000 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4750 4650 50  0001 C CNN
+F 3 "" H 4750 4650 50  0001 C CNN
+	1    4750 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D13
+U 1 1 5D1FBF03
+P 4450 4450
+F 0 "D13" V 4496 4518 50  0000 L CNN
+F 1 "D_Small" V 4405 4518 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4450 4450 50  0001 C CNN
+F 3 "~" V 4450 4450 50  0001 C CNN
+	1    4450 4450
+	1    0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW17
+U 1 1 5D1FBF0D
+P 4750 5150
+F 0 "SW17" V 4796 5102 50  0000 R CNN
+F 1 "SW_Push" V 4705 5102 50  0000 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4750 5350 50  0001 C CNN
+F 3 "" H 4750 5350 50  0001 C CNN
+	1    4750 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D17
+U 1 1 5D1FBF17
+P 4450 5150
+F 0 "D17" V 4496 5218 50  0000 L CNN
+F 1 "D_Small" V 4405 5218 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4450 5150 50  0001 C CNN
+F 3 "~" V 4450 5150 50  0001 C CNN
+	1    4450 5150
+	1    0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW8
+U 1 1 5D1FF7FB
+P 7350 3050
+F 0 "SW8" V 7396 3002 50  0000 R CNN
+F 1 "SW_Push" V 7305 3002 50  0000 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7350 3250 50  0001 C CNN
+F 3 "" H 7350 3250 50  0001 C CNN
+	1    7350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D8
+U 1 1 5D1FF805
+P 7050 3050
+F 0 "D8" V 7096 3118 50  0000 L CNN
+F 1 "D_Small" V 7005 3118 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7050 3050 50  0001 C CNN
+F 3 "~" V 7050 3050 50  0001 C CNN
+	1    7050 3050
+	1    0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW12
+U 1 1 5D1FF80F
+P 7350 3750
+F 0 "SW12" V 7396 3702 50  0000 R CNN
+F 1 "SW_Push" V 7305 3702 50  0000 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7350 3950 50  0001 C CNN
+F 3 "" H 7350 3950 50  0001 C CNN
+	1    7350 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D12
+U 1 1 5D1FF819
+P 7050 3750
+F 0 "D12" V 7096 3818 50  0000 L CNN
+F 1 "D_Small" V 7005 3818 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7050 3750 50  0001 C CNN
+F 3 "~" V 7050 3750 50  0001 C CNN
+	1    7050 3750
+	1    0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW16
+U 1 1 5D1FF823
+P 7350 4450
+F 0 "SW16" V 7396 4402 50  0000 R CNN
+F 1 "SW_Push" V 7305 4402 50  0000 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7350 4650 50  0001 C CNN
+F 3 "" H 7350 4650 50  0001 C CNN
+	1    7350 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D16
+U 1 1 5D1FF82D
+P 7050 4450
+F 0 "D16" V 7096 4518 50  0000 L CNN
+F 1 "D_Small" V 7005 4518 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7050 4450 50  0001 C CNN
+F 3 "~" V 7050 4450 50  0001 C CNN
+	1    7050 4450
+	1    0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW20
+U 1 1 5D1FF837
+P 7350 5150
+F 0 "SW20" V 7396 5102 50  0000 R CNN
+F 1 "SW_Push" V 7305 5102 50  0000 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7350 5350 50  0001 C CNN
+F 3 "" H 7350 5350 50  0001 C CNN
+	1    7350 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D20
+U 1 1 5D1FF841
+P 7050 5150
+F 0 "D20" V 7096 5218 50  0000 L CNN
+F 1 "D_Small" V 7005 5218 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7050 5150 50  0001 C CNN
+F 3 "~" V 7050 5150 50  0001 C CNN
+	1    7050 5150
+	1    0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW7
+U 1 1 5D1FF84B
+P 6500 3050
+F 0 "SW7" V 6546 3002 50  0000 R CNN
+F 1 "SW_Push" V 6455 3002 50  0000 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6500 3250 50  0001 C CNN
+F 3 "" H 6500 3250 50  0001 C CNN
+	1    6500 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D7
+U 1 1 5D1FF855
+P 6200 3050
+F 0 "D7" V 6246 3118 50  0000 L CNN
+F 1 "D_Small" V 6155 3118 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6200 3050 50  0001 C CNN
+F 3 "~" V 6200 3050 50  0001 C CNN
+	1    6200 3050
+	1    0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW11
+U 1 1 5D1FF85F
+P 6500 3750
+F 0 "SW11" V 6546 3702 50  0000 R CNN
+F 1 "SW_Push" V 6455 3702 50  0000 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6500 3950 50  0001 C CNN
+F 3 "" H 6500 3950 50  0001 C CNN
+	1    6500 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D11
+U 1 1 5D1FF869
+P 6200 3750
+F 0 "D11" V 6246 3818 50  0000 L CNN
+F 1 "D_Small" V 6155 3818 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6200 3750 50  0001 C CNN
+F 3 "~" V 6200 3750 50  0001 C CNN
+	1    6200 3750
+	1    0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW15
+U 1 1 5D1FF873
+P 6500 4450
+F 0 "SW15" V 6546 4402 50  0000 R CNN
+F 1 "SW_Push" V 6455 4402 50  0000 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6500 4650 50  0001 C CNN
+F 3 "" H 6500 4650 50  0001 C CNN
+	1    6500 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D15
+U 1 1 5D1FF87D
+P 6200 4450
+F 0 "D15" V 6246 4518 50  0000 L CNN
+F 1 "D_Small" V 6155 4518 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6200 4450 50  0001 C CNN
+F 3 "~" V 6200 4450 50  0001 C CNN
+	1    6200 4450
+	1    0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW19
+U 1 1 5D1FF887
+P 6500 5150
+F 0 "SW19" V 6546 5102 50  0000 R CNN
+F 1 "SW_Push" V 6455 5102 50  0000 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6500 5350 50  0001 C CNN
+F 3 "" H 6500 5350 50  0001 C CNN
+	1    6500 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D19
+U 1 1 5D1FF891
+P 6200 5150
+F 0 "D19" V 6246 5218 50  0000 L CNN
+F 1 "D_Small" V 6155 5218 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6200 5150 50  0001 C CNN
+F 3 "~" V 6200 5150 50  0001 C CNN
+	1    6200 5150
+	1    0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5D215E29
+P 5600 2300
+F 0 "SW2" V 5646 2252 50  0000 R CNN
+F 1 "SW_Push" V 5555 2252 50  0000 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5600 2500 50  0001 C CNN
+F 3 "" H 5600 2500 50  0001 C CNN
+	1    5600 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D2
+U 1 1 5D215E33
+P 5300 2300
+F 0 "D2" V 5346 2368 50  0000 L CNN
+F 1 "D_Small" V 5255 2368 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5300 2300 50  0001 C CNN
+F 3 "~" V 5300 2300 50  0001 C CNN
+	1    5300 2300
+	1    0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5D215E3D
+P 4750 2300
+F 0 "SW1" V 4796 2252 50  0000 R CNN
+F 1 "SW_Push" V 4705 2252 50  0000 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4750 2500 50  0001 C CNN
+F 3 "" H 4750 2500 50  0001 C CNN
+	1    4750 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 5D215E47
+P 4450 2300
+F 0 "D1" V 4496 2368 50  0000 L CNN
+F 1 "D_Small" V 4405 2368 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4450 2300 50  0001 C CNN
+F 3 "~" V 4450 2300 50  0001 C CNN
+	1    4450 2300
+	1    0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5D215E51
+P 7350 2300
+F 0 "SW4" V 7396 2252 50  0000 R CNN
+F 1 "SW_Push" V 7305 2252 50  0000 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7350 2500 50  0001 C CNN
+F 3 "" H 7350 2500 50  0001 C CNN
+	1    7350 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 5D215E5B
+P 7050 2300
+F 0 "D4" V 7096 2368 50  0000 L CNN
+F 1 "D_Small" V 7005 2368 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7050 2300 50  0001 C CNN
+F 3 "~" V 7050 2300 50  0001 C CNN
+	1    7050 2300
+	1    0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5D215E65
+P 6500 2300
+F 0 "SW3" V 6546 2252 50  0000 R CNN
+F 1 "SW_Push" V 6455 2252 50  0000 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6500 2500 50  0001 C CNN
+F 3 "" H 6500 2500 50  0001 C CNN
+	1    6500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 5D215E6F
+P 6200 2300
+F 0 "D3" V 6246 2368 50  0000 L CNN
+F 1 "D_Small" V 6155 2368 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6200 2300 50  0001 C CNN
+F 3 "~" V 6200 2300 50  0001 C CNN
+	1    6200 2300
+	1    0    0    1   
+$EndComp
+Text HLabel 5000 1750 1    50   Input ~ 0
+COL0
+Text HLabel 5850 1750 1    50   Input ~ 0
+COL1
+Text HLabel 6750 1750 1    50   Input ~ 0
+COL2
+Text HLabel 7600 1750 1    50   Input ~ 0
+COL3
+Wire Wire Line
+	5000 1750 5000 2300
+Wire Wire Line
+	5000 5150 4950 5150
+Wire Wire Line
+	5000 4450 4950 4450
+Connection ~ 5000 4450
+Wire Wire Line
+	5000 4450 5000 5150
+Wire Wire Line
+	4950 3750 5000 3750
+Connection ~ 5000 3750
+Wire Wire Line
+	5000 3750 5000 4450
+Wire Wire Line
+	4950 3050 5000 3050
+Connection ~ 5000 3050
+Wire Wire Line
+	5000 3050 5000 3750
+Wire Wire Line
+	4950 2300 5000 2300
+Connection ~ 5000 2300
+Wire Wire Line
+	5000 2300 5000 3050
+Wire Wire Line
+	5850 1750 5850 2300
+Wire Wire Line
+	5850 5150 5800 5150
+Wire Wire Line
+	5800 4450 5850 4450
+Connection ~ 5850 4450
+Wire Wire Line
+	5850 4450 5850 5150
+Wire Wire Line
+	5800 3750 5850 3750
+Connection ~ 5850 3750
+Wire Wire Line
+	5850 3750 5850 4450
+Wire Wire Line
+	5800 3050 5850 3050
+Connection ~ 5850 3050
+Wire Wire Line
+	5850 3050 5850 3750
+Wire Wire Line
+	5800 2300 5850 2300
+Connection ~ 5850 2300
+Wire Wire Line
+	5850 2300 5850 3050
+Wire Wire Line
+	6750 5150 6700 5150
+Wire Wire Line
+	6750 1750 6750 2300
+Wire Wire Line
+	6700 4450 6750 4450
+Connection ~ 6750 4450
+Wire Wire Line
+	6750 4450 6750 5150
+Wire Wire Line
+	6700 3750 6750 3750
+Connection ~ 6750 3750
+Wire Wire Line
+	6750 3750 6750 4450
+Wire Wire Line
+	6700 3050 6750 3050
+Connection ~ 6750 3050
+Wire Wire Line
+	6750 3050 6750 3750
+Wire Wire Line
+	6700 2300 6750 2300
+Connection ~ 6750 2300
+Wire Wire Line
+	6750 2300 6750 3050
+Wire Wire Line
+	7600 1750 7600 2300
+Wire Wire Line
+	7600 5150 7550 5150
+Wire Wire Line
+	7600 4450 7550 4450
+Connection ~ 7600 4450
+Wire Wire Line
+	7600 4450 7600 5150
+Wire Wire Line
+	7600 3750 7550 3750
+Connection ~ 7600 3750
+Wire Wire Line
+	7600 3750 7600 4450
+Wire Wire Line
+	7600 3050 7550 3050
+Connection ~ 7600 3050
+Wire Wire Line
+	7600 3050 7600 3750
+Wire Wire Line
+	7600 2300 7550 2300
+Connection ~ 7600 2300
+Wire Wire Line
+	7600 2300 7600 3050
+Text HLabel 4200 2700 0    50   Input ~ 0
+ROW0
+Text HLabel 4200 3450 0    50   Input ~ 0
+ROW1
+Text HLabel 4200 4150 0    50   Input ~ 0
+ROW2
+Text HLabel 4200 4850 0    50   Input ~ 0
+ROW3
+Text HLabel 4200 5550 0    50   Input ~ 0
+ROW4
+Wire Wire Line
+	4200 2700 4300 2700
+Wire Wire Line
+	6900 2700 6900 2300
+Wire Wire Line
+	6900 2300 6950 2300
+Wire Wire Line
+	6100 2300 6050 2300
+Wire Wire Line
+	6050 2300 6050 2700
+Connection ~ 6050 2700
+Wire Wire Line
+	6050 2700 6900 2700
+Wire Wire Line
+	5200 2300 5150 2300
+Wire Wire Line
+	5150 2300 5150 2700
+Connection ~ 5150 2700
+Wire Wire Line
+	5150 2700 6050 2700
+Wire Wire Line
+	4350 2300 4300 2300
+Wire Wire Line
+	4300 2300 4300 2700
+Connection ~ 4300 2700
+Wire Wire Line
+	4300 2700 5150 2700
+Wire Wire Line
+	4200 3450 4300 3450
+Wire Wire Line
+	6900 3450 6900 3050
+Wire Wire Line
+	6900 3050 6950 3050
+Wire Wire Line
+	6100 3050 6050 3050
+Wire Wire Line
+	6050 3050 6050 3450
+Connection ~ 6050 3450
+Wire Wire Line
+	6050 3450 6900 3450
+Wire Wire Line
+	5200 3050 5150 3050
+Wire Wire Line
+	5150 3050 5150 3450
+Connection ~ 5150 3450
+Wire Wire Line
+	5150 3450 6050 3450
+Wire Wire Line
+	4350 3050 4300 3050
+Wire Wire Line
+	4300 3050 4300 3450
+Connection ~ 4300 3450
+Wire Wire Line
+	4300 3450 5150 3450
+Wire Wire Line
+	4200 4150 4300 4150
+Wire Wire Line
+	6900 4150 6900 3750
+Wire Wire Line
+	6900 3750 6950 3750
+Wire Wire Line
+	6100 3750 6050 3750
+Wire Wire Line
+	6050 3750 6050 4150
+Connection ~ 6050 4150
+Wire Wire Line
+	6050 4150 6900 4150
+Wire Wire Line
+	5200 3750 5150 3750
+Wire Wire Line
+	5150 3750 5150 4150
+Connection ~ 5150 4150
+Wire Wire Line
+	5150 4150 6050 4150
+Wire Wire Line
+	4350 3750 4300 3750
+Wire Wire Line
+	4300 3750 4300 4150
+Connection ~ 4300 4150
+Wire Wire Line
+	4300 4150 5150 4150
+Wire Wire Line
+	4200 4850 4300 4850
+Wire Wire Line
+	6900 4850 6900 4450
+Wire Wire Line
+	6900 4450 6950 4450
+Wire Wire Line
+	6100 4450 6050 4450
+Wire Wire Line
+	6050 4450 6050 4850
+Connection ~ 6050 4850
+Wire Wire Line
+	6050 4850 6900 4850
+Wire Wire Line
+	5200 4450 5150 4450
+Wire Wire Line
+	5150 4450 5150 4850
+Connection ~ 5150 4850
+Wire Wire Line
+	5150 4850 6050 4850
+Wire Wire Line
+	4350 4450 4300 4450
+Wire Wire Line
+	4300 4450 4300 4850
+Connection ~ 4300 4850
+Wire Wire Line
+	4300 4850 5150 4850
+Wire Wire Line
+	4200 5550 4300 5550
+Wire Wire Line
+	6900 5550 6900 5150
+Wire Wire Line
+	6900 5150 6950 5150
+Wire Wire Line
+	6100 5150 6050 5150
+Wire Wire Line
+	6050 5150 6050 5550
+Connection ~ 6050 5550
+Wire Wire Line
+	6050 5550 6900 5550
+Wire Wire Line
+	5200 5150 5150 5150
+Wire Wire Line
+	5150 5150 5150 5550
+Connection ~ 5150 5550
+Wire Wire Line
+	5150 5550 6050 5550
+Wire Wire Line
+	4350 5150 4300 5150
+Wire Wire Line
+	4300 5150 4300 5550
+Connection ~ 4300 5550
+Wire Wire Line
+	4300 5550 5150 5550
+Text Notes 7250 5000 0    50   ~ 0
+R Key
+Text Notes 6400 5000 0    50   ~ 0
+. Key
+Text Notes 5500 5000 0    50   ~ 0
+0 Key
+Text Notes 4650 5000 0    50   ~ 0
+S Key
+Text Notes 7250 4300 0    50   ~ 0
+/ Key
+Text Notes 6400 4300 0    50   ~ 0
+3 Key
+Text Notes 5500 4300 0    50   ~ 0
+2 Key
+Text Notes 4650 4300 0    50   ~ 0
+1 Key
+Text Notes 7250 3600 0    50   ~ 0
+* Key
+Text Notes 6400 3600 0    50   ~ 0
+6 Key
+Text Notes 5500 3600 0    50   ~ 0
+5 Key
+Text Notes 4650 3600 0    50   ~ 0
+4 Key
+Text Notes 7250 2150 0    50   ~ 0
++ Key
+Text Notes 6400 2150 0    50   ~ 0
+e Key
+Text Notes 5500 2150 0    50   ~ 0
+^ Key
+Text Notes 4650 2150 0    50   ~ 0
+C Key
+Text Notes 7250 2900 0    50   ~ 0
+- Key
+Text Notes 6400 2900 0    50   ~ 0
+9 Key
+Text Notes 5500 2900 0    50   ~ 0
+8 Key
+Text Notes 4650 2900 0    50   ~ 0
+7 Key
+$EndSCHEMATC
