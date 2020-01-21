@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:rpn_mxb-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -31,7 +30,7 @@ U 1 1 5D345AC4
 P 3300 3600
 F 0 "U4" H 3744 3646 50  0000 L CNN
 F 1 "MCP73812T-435I-OT" H 3744 3555 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3350 3350 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 3350 3350 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22036b.pdf" H 3050 3850 50  0001 C CNN
 	1    3300 3600
 	1    0    0    -1  
@@ -189,12 +188,7 @@ Connection ~ 5150 3500
 Wire Wire Line
 	5150 3500 5350 3500
 Wire Wire Line
-	5550 3500 5700 3500
-Wire Wire Line
 	5700 3650 5700 3500
-Connection ~ 5700 3500
-Wire Wire Line
-	5700 3500 6150 3500
 Wire Wire Line
 	5700 3850 5700 4150
 Wire Wire Line
@@ -273,16 +267,14 @@ Wire Wire Line
 $Comp
 L power:+BATT #PWR0107
 U 1 1 5D365457
-P 5700 3150
-F 0 "#PWR0107" H 5700 3000 50  0001 C CNN
-F 1 "+BATT" H 5715 3323 50  0000 C CNN
-F 2 "" H 5700 3150 50  0001 C CNN
-F 3 "" H 5700 3150 50  0001 C CNN
-	1    5700 3150
+P 5150 3100
+F 0 "#PWR0107" H 5150 2950 50  0001 C CNN
+F 1 "+BATT" H 5165 3273 50  0000 C CNN
+F 2 "" H 5150 3100 50  0001 C CNN
+F 3 "" H 5150 3100 50  0001 C CNN
+	1    5150 3100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5700 3500 5700 3150
 $Comp
 L power:GND #PWR0108
 U 1 1 5D3664E6
@@ -415,4 +407,11 @@ $EndComp
 Wire Wire Line
 	9800 1650 9800 1850
 Connection ~ 9800 1850
+Wire Wire Line
+	5150 3100 5150 3500
+Wire Wire Line
+	5700 3500 6150 3500
+Wire Wire Line
+	5550 3500 5700 3500
+Connection ~ 5700 3500
 $EndSCHEMATC

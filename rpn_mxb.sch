@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:rpn_mxb-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -101,8 +100,6 @@ Wire Wire Line
 Connection ~ 9500 2400
 Wire Wire Line
 	9500 2400 9500 2300
-Wire Wire Line
-	10300 2950 9300 2950
 Wire Wire Line
 	10300 3050 9300 3050
 Wire Wire Line
@@ -213,11 +210,9 @@ Wire Wire Line
 Connection ~ 6850 4700
 Wire Wire Line
 	6850 4700 6850 4600
-Text Label 6000 3300 2    50   ~ 0
-RS
-Text Label 8000 3800 0    50   ~ 0
+Text Label 6000 3000 2    50   ~ 0
 RW
-Text Label 8000 3900 0    50   ~ 0
+Text Label 8000 3800 0    50   ~ 0
 E
 Wire Wire Line
 	7750 2800 8000 2800
@@ -225,9 +220,9 @@ Wire Wire Line
 	7750 2900 8000 2900
 Wire Wire Line
 	7750 3000 8000 3000
-Text Label 8000 4000 0    50   ~ 0
-DB4
 Text Label 6000 3100 2    50   ~ 0
+DB4
+Text Label 6000 3300 2    50   ~ 0
 DB6
 Wire Wire Line
 	8000 3100 7750 3100
@@ -246,7 +241,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/40001303H.pdf" H 6950 3550 
 	1    6950 3600
 	1    0    0    -1  
 $EndComp
-Text Label 8000 3700 0    50   ~ 0
+Text Label 8000 4000 0    50   ~ 0
 DB7
 Text Label 8300 5150 0    50   ~ 0
 COL0
@@ -311,13 +306,9 @@ Wire Wire Line
 Wire Wire Line
 	6000 2800 6150 2800
 Wire Wire Line
-	6150 2900 6000 2900
-Wire Wire Line
 	6000 3000 6150 3000
 Wire Wire Line
 	6150 3100 6000 3100
-Wire Wire Line
-	6000 3200 6150 3200
 Wire Wire Line
 	6150 3300 6000 3300
 Text Label 6000 3500 2    50   ~ 0
@@ -468,6 +459,99 @@ Text Label 5450 4000 0    50   ~ 0
 OSC1
 Text Label 5450 3500 0    50   ~ 0
 OSC2
-Text Label 6000 3000 2    50   ~ 0
+Text Label 8000 3900 0    50   ~ 0
 DB5
+Wire Wire Line
+	10300 2950 9300 2950
+$Comp
+L Device:Q_NMOS_GSD Q3
+U 1 1 5E285F1D
+P 4600 5450
+F 0 "Q3" H 4806 5496 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 4806 5405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4800 5550 50  0001 C CNN
+F 3 "~" H 4600 5450 50  0001 C CNN
+	1    4600 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5E2866B1
+P 4700 5900
+F 0 "#PWR06" H 4700 5650 50  0001 C CNN
+F 1 "GND" H 4705 5727 50  0000 C CNN
+F 2 "" H 4700 5900 50  0001 C CNN
+F 3 "" H 4700 5900 50  0001 C CNN
+	1    4700 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR04
+U 1 1 5E286FED
+P 4700 4700
+F 0 "#PWR04" H 4700 4550 50  0001 C CNN
+F 1 "+BATT" H 4715 4873 50  0000 C CNN
+F 2 "" H 4700 4700 50  0001 C CNN
+F 3 "" H 4700 4700 50  0001 C CNN
+	1    4700 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R5
+U 1 1 5E287745
+P 4700 4850
+F 0 "R5" H 4768 4896 50  0000 L CNN
+F 1 "R_US" H 4768 4805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4740 4840 50  0001 C CNN
+F 3 "~" H 4700 4850 50  0001 C CNN
+	1    4700 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R6
+U 1 1 5E28B79D
+P 4250 5750
+F 0 "R6" H 4318 5796 50  0000 L CNN
+F 1 "R_US" H 4318 5705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4290 5740 50  0001 C CNN
+F 3 "~" H 4250 5750 50  0001 C CNN
+	1    4250 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5E28C9E7
+P 4250 5900
+F 0 "#PWR05" H 4250 5650 50  0001 C CNN
+F 1 "GND" H 4255 5727 50  0000 C CNN
+F 2 "" H 4250 5900 50  0001 C CNN
+F 3 "" H 4250 5900 50  0001 C CNN
+	1    4250 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 5900 4700 5650
+Wire Wire Line
+	4250 5600 4250 5450
+Wire Wire Line
+	4250 5450 4400 5450
+Text Label 4100 5450 2    50   ~ 0
+BL_EN
+Wire Wire Line
+	4100 5450 4250 5450
+Connection ~ 4250 5450
+Text Label 6000 2800 2    50   ~ 0
+BL_EN
+Text Label 8000 3700 0    50   ~ 0
+RS
+Text Label 5000 5250 0    50   ~ 0
+LED-
+Text Label 5000 5000 0    50   ~ 0
+LED+
+Wire Wire Line
+	5000 5000 4700 5000
+Wire Wire Line
+	4700 5250 5000 5250
+NoConn ~ 6150 3200
+NoConn ~ 6150 2900
 $EndSCHEMATC
