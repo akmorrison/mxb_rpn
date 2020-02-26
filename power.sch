@@ -321,7 +321,7 @@ L Device:C_Small C5
 U 1 1 5D36ABD6
 P 9800 2050
 F 0 "C5" H 9892 2096 50  0000 L CNN
-F 1 "C_Small" H 9892 2005 50  0000 L CNN
+F 1 "1uF" H 9892 2005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9800 2050 50  0001 C CNN
 F 3 "~" H 9800 2050 50  0001 C CNN
 	1    9800 2050
@@ -332,7 +332,7 @@ L Device:C_Small C4
 U 1 1 5D36AF09
 P 8450 2050
 F 0 "C4" H 8542 2096 50  0000 L CNN
-F 1 "C_Small" H 8542 2005 50  0000 L CNN
+F 1 "1uF" H 8542 2005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8450 2050 50  0001 C CNN
 F 3 "~" H 8450 2050 50  0001 C CNN
 	1    8450 2050
@@ -414,4 +414,8 @@ Wire Wire Line
 Wire Wire Line
 	5550 3500 5700 3500
 Connection ~ 5700 3500
+Text Notes 8200 3900 0    50   ~ 0
+ISSUE: From AP9101C Datasheet Note 4:\nYou need to short Batt Negative to Gnd\nOn first connection. Wire a pushbutton in\nhere in order to do that
+Text Notes 8400 1250 0    50   ~ 0
+ISSUE: This part doesn't exist, and it's\npinout is different than all other SOT23-5\nVoltage regulators. TODO, replace this with\na TLV741P regulator or something
 $EndSCHEMATC
